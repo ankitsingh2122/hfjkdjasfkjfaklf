@@ -17,7 +17,7 @@ const Project = () => {
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.8 }}
               className="w-full lg:w-1/4 pt-6"
             >
               <a href={project.link}>
@@ -35,7 +35,7 @@ const Project = () => {
             <motion.div 
              whileInView={{ opacity: 1, x: 0 }}
              initial={{ opacity: 0, x: 100 }}
-             transition={{ duration: 1 }}
+             transition={{ duration: 0.8 }}
             
             className="w-full max-w-xl lg:3/4">
               <h6 className="font-semibold "> {project.title}</h6>

@@ -12,7 +12,7 @@ const Hero = () => {
             <motion.h1
                 whileInView={{ opacity: 1, y: 0 }}
                 initial={{ opacity: 0, y: -100 }}
-                transition={{ duration: 0.5 }}
+                transition={{ duration: 0.4}}
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-8xl max-sm:text-5xl "
             >
               Ankit Singh
@@ -20,7 +20,7 @@ const Hero = () => {
             <motion.span
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.5 }}
               className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent max-sm:text-3xl mp-20 "
             >
               Frontend Developer
@@ -28,7 +28,7 @@ const Hero = () => {
             <motion.p
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
-              transition={{ duration: 1 }}
+              transition={{ duration: 0.5 }}
               className="my-2 max-w-xl py-6 font-light tracking-tighter"
             >
               {HERO_CONTENT}
@@ -40,7 +40,7 @@ const Hero = () => {
             <motion.img
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 1.2 }}
+              transition={{ duration: 0.5, delay: 0.8 }}
               src={ankitprofile}
               alt="profile-photo"
               className="size-fit max-sm:hidden"
