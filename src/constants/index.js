@@ -40,7 +40,7 @@ export const EDUCATIONS = [
   {
     year: " june 2017 - August 2020",
     Academic: "Chandigarh College of Engineering and Technology",
-    description: `Completed Politechnic in Computer science and engineering with 7 CGPA.`,
+    description: `Completed Politechnic in Mechanical and engineering with 7 CGPA.`,
   },
   {
     year: "April 2007 - May 2017",
