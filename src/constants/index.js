@@ -7,7 +7,7 @@ import { FaXTwitter } from 'react-icons/fa6';
 
 export const HERO_CONTENT = `   I am a passionate Frontend Developer skilled in building web applications using HTML,CSS JavaScript,React JS Tailwind Css and Material Ui. With a strong foundation in web development technologies, I am eager to contribute my expertise to create innovative and efficient software products.`;
 
-export const ABOUT_TEXT = `  I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including CSS JavaScript,React JS Tailwind Css and Material Ui. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies,`;
+export const ABOUT_TEXT = `  I am a dedicated and versatile Frontend developer with a passion for creating efficient and user-friendly web applications. I have worked with a variety of technologies, including CSS JavaScript,React JS Tailwind Css and Material Ui. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies,`;
 
  export const SocialmediaLink = [
   {
